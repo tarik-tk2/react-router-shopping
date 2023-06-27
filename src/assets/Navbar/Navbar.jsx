@@ -10,7 +10,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className=" h-16 bg-indigo-400 w-full flex flex-row  justify-between items-center	 px-2 ">
+    <div className=" h-16 bg-indigo-400 w-full flex flex-row  justify-between items-center	 px-2  sticky top-0 z-10">
       <div className="h-full">
         <img src={logo} alt="" className=" h-full " />
       </div>

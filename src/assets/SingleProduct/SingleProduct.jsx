@@ -23,7 +23,7 @@ const SingleProduct = ({ product }) => {
           ({rating.count}reviews)
         </p>
       </div>
-          <button className="text-center w-full flex flex-row bg-orange-700 p-2 items-center">
+          <button className="text-center w-full flex flex-row justify-center gap-2 font-medium bg-orange-700 p-2 items-center">
               Add To Cart
         <ShoppingCartIcon className="h-6 w-6 text-black-500"/>
           
